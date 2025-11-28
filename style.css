@@ -1,0 +1,145 @@
+/* Reset / base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navigation / Header */
+header {
+    background-color: #004080;  /* dark blue */
+    color: #fff;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.brand a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-left: 20px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.nav-menu li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    /* you can replace 'hero-bg.jpg' with any image, or use a solid color */
+    background-color: #e0e0e0; /* fallback if no image */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #004080;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #003060;
+}
+
+/* About Section */
+.about {
+    padding: 60px 0;
+}
+
+.about h2 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+    color: #004080;
+}
+
+.about p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Courses Section */
+.courses {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.courses h2 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+    color: #004080;
+}
+
+.courses ul {
+    margin-left: 20px;
+}
+
+.courses ul li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+/* Footer / Contact */
+footer {
+    background-color: #222;
+    color: #ddd;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+footer p {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
